@@ -1,0 +1,59 @@
+body{
+    background-color: #BDCDD6;
+    text-align: center;
+}
+
+h1{
+    font-size: 5rem;
+    color: #183D3D;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn{
+    width: 180px;
+    height: 180px;
+    margin: 20px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 5px;
+
+    border-color: black;
+}
+
+#green{
+    background-color: green;
+}
+
+#red{
+    background-color: red;
+}
+
+#yellow{
+    background-color: yellow ;
+}
+
+#blue{
+    background-color: blue;
+}
+
+.footer{
+position: fixed;
+width: 100%;
+text-align: center;
+bottom: 10px;
+color: #183D3D;
+}
+
+span{
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 20px;
+}
+
+.pressed{
+    box-shadow: 0px 5px 0px 5px grey;
+    opacity: 5%;
+}
+
+.gameOver {
+    background-color: red;
+}
