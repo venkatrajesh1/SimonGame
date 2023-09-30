@@ -74,7 +74,7 @@ function checkAnswer(currentLevel){
         var audio2 = new Audio("sounds/wrong.mp3");
         audio2.play();
 
-        $(".title").text("Game Over..tap bar to restart..")
+        $(".title").text("Game Over... ")
 
         $("body").addClass("gameOver");
         setTimeout( function()  {
