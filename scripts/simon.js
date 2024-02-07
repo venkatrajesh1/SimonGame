@@ -88,6 +88,7 @@ function checkAnswer(currentLevel){
 function gameOver(){
 
     started = false;
+    nextSequence()
     gamePattern = []
     level = 0
 
